@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CustomDialog</string>
+    <string name="button_login">Iniciar Sesión</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="msj_exito">Sesión inciado con éxito</string>
+    <string name="msj_error">Llena todos los campos</string>
+</resources>

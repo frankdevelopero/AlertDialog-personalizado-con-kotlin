@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgDialogLogin"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/edtCorreo"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/imgDialogLogin"
+        android:hint="@string/hint_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:inputType="textPassword"
+        android:layout_below="@+id/edtCorreo"
+        android:hint="@string/hint_pass"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/edtPass"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/button_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
